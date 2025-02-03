@@ -13,7 +13,7 @@ import webbrowser
 
 
 
-class SuperFastFileSearch:
+class FileSearch:
     def __init__(self, master):
         self.master = master
         master.title("SmartSearch")
@@ -298,7 +298,7 @@ class SuperFastFileSearch:
 
 def main():
     root = tk.Tk()
-    app = SuperFastFileSearch(root)
+    app = FileSearch(root)
     root.mainloop()
 
 if __name__ == "__main__":
